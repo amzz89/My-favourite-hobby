@@ -1,4 +1,4 @@
-body {
+body {margin-top: 0px;
  background: #adaca6;
   text-align: center;
 }
@@ -9,21 +9,27 @@ body {
 }
 
 .menu{
+    background: purple;
+   width: 100%;
     list-style: none;
-    right:30px;
-    position:absolute;
-    cursor: pointer;
+    position:fixed;
+    margin-top: 0px;
     z-index: 10;
+    height:30px;
+}
+
     
-}
 .links{
-    padding-left: 20px;
+    padding-left: 30px;
+   display: inline;
 }
+
 .links:hover{
     background-color: darkgrey;
 }
 h1 {
-  color: purple;
+padding-top: 50px;
+    color: purple;
  font-family: 'Permanent Marker', cursive; 
   
 }
@@ -32,7 +38,7 @@ h2 {
   font-family: checkbox;
 }
 
-img {
+#circuit {
   width: 150px;
   height: 150px;
   border-radius: 150px;
@@ -58,4 +64,38 @@ img {
   background: purple;
     margin:auto;
  
+}
+.sb{
+    font-size: 15px;
+    line-height: 70px;
+}
+.iframe{
+    align-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+   height: 200px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+a{
+    text-decoration: underline;
+    color:antiquewhite;
+    text-shadow: 1px 1px gainsboro;
+}
+#contact iframe{
+    width: 100% !important;
+}
+
+.contact1 a{
+    text-shadow: none;
+    line-height: 50px;
+    
 }
